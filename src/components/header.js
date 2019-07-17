@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import {MenuItem, StyledHeader} from '../styles/components'
+import { MenuItem, StyledHeader } from "../styles/components"
 
-const Header = ({}) => (
+const Header = ({siteTitle}) => (
   <StyledHeader>
   <Link to='/'>
     <img src="https://i.postimg.cc/6q3pg48v/Logo.png" alt='logoplatziswag'></img>
